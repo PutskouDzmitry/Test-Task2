@@ -1,0 +1,12 @@
+ env: "local"
+ storage_path: "./storage/sso.db"
+ token_ttl: 1h
+
+ grpc:
+   port: 8081
+   timeout: 5s
+   host: localhost
+
+ jwt:
+    secret-key: secret
+    access-token-expiration: 15
